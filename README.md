@@ -1,6 +1,6 @@
 ## where
 
-An improved which
+An improved `which`.
 
 `where` will identify a keyword (or builtin), a file, a function (and where it
 was define) and an alias.
@@ -13,11 +13,8 @@ Create a symbolic link to `where` in whatever directory you are using as your bi
 
 ```
 $ where ls bad compgen gco gtoplevel
-
-ls:file:/bin/ls
-bad is not found
-compgen:builtin
 ls is hashed (/bin/ls)
+bash: type: bad: not found
 
 compgen is a shell builtin
 gco 132 /home/harleypig/projects/dotfiles/.bash_sources.d/git
